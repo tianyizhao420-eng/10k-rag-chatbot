@@ -1,4 +1,4 @@
-#  优化1+2
+#  strong llm
 import os
 import tempfile
 import time
@@ -97,7 +97,7 @@ if uploaded_files:
                     documents.extend(loader.load())
 
             text_splitter = RecursiveCharacterTextSplitter(
-                chunk_size=1200,
+                chunk_size=600,
                 chunk_overlap=200
             )
             chunks = text_splitter.split_documents(documents)
@@ -136,7 +136,7 @@ if user_input and "vector_store" in st.session_state:
     # Priority 2: Multi-Query Retriever
     # =========================
     base_retriever = st.session_state.vector_store.as_retriever(
-        search_kwargs={"k": 6}
+        search_kwargs={"k": 10}
     )
 
     multi_query_retriever = MultiQueryRetriever.from_llm(
