@@ -8,7 +8,7 @@ The system retrieves relevant document sections and generates answers strictly g
 
 ---
 
-# 🚀 Features
+# 🚀 Strong LLM Features
 
 - Upload multiple **10-K PDF reports**
 - Ask questions about financial data or business risks
