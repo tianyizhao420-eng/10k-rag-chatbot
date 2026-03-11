@@ -21,3 +21,23 @@ The system retrieves relevant document sections and generates answers strictly g
 - Real-time **token streaming simulation**
 
 ---
+
+# 🏃 How to Run Strong LLM
+
+### 1. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 2. Set OpenAI API Key
+
+### 3. Run the Application
+
+```bash
+streamlit run rag_strongllm.py
+```
+
+### 4. Use the Chatbot
+
+Upload 10-K PDF and ask question!
