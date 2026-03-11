@@ -124,6 +124,7 @@ https://ollama.com/
 ```pip install -r requirements.txt```
 ### 4. Run the App
 ```streamlit run rag_weakllm.py```
+
 ---
 
 # 🚀 Running the Strong LLM Version
