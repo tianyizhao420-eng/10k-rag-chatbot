@@ -27,21 +27,17 @@ We evaluate the models based on:
 # 🏗️ System Architecture
 
 The chatbot follows a standard **Retrieval-Augmented Generation (RAG)** pipeline:
-PDF Documents (10-K Reports)
-↓
-Document Loader (PyPDFLoader)
-↓
-Text Chunking
-↓
-Embedding Model
-↓
-Vector Database (FAISS)
-↓
-Retriever
-↓
-Large Language Model (LLM)
-↓
-Answer grounded in retrieved document content
+## 🏗️ RAG Architecture
+
+```mermaid
+graph TD
+A[PDF Documents] --> B[PyPDFLoader]
+B --> C[Text Chunking]
+C --> D[Embedding Model]
+D --> E[FAISS Vector Database]
+E --> F[Retriever]
+F --> G[LLM]
+G --> H[Answer grounded in documents]
 ---
 
 # 🤖 Weak vs Strong LLM
