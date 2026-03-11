@@ -118,26 +118,26 @@ Install Ollama from:
 https://ollama.com/
 
 ### 2. Pull Required Models
-```ollama pull mistral
-```ollama pull nomic-embed-text
+```ollama pull mistral```
+```ollama pull nomic-embed-text```
 ### 3. Install Python Dependencies
-```pip install -r requirements.txt
+```pip install -r requirements.txt```
 ### 4. Run the App
-```streamlit run rag_weakllm.py
+```streamlit run rag_weakllm.py```
 ---
 
 # 🚀 Running the Strong LLM Version
 
 ### 1. Install Dependencies
-```pip install -r requirements.txt
+```pip install -r requirements.txt```
 ### 2. Set OpenAI API Key
 
 Mac / Linux
-```export OPENAI_API_KEY=“your_api_key”
+```export OPENAI_API_KEY=“your_api_key”```
 Windows
-```set OPENAI_API_KEY=“your_api_key”
+```set OPENAI_API_KEY=“your_api_key”```
 ### 3. Run the Application
-```streamlit run rag_strongllm.py
+```streamlit run rag_strongllm.py```
 ---
 
 # 💬 Example Questions
