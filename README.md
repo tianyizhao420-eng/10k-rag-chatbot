@@ -78,7 +78,10 @@ Limitations:
 
 ---
 
-# 📂 Repository Structure
+
+## 📂 Repository Structure
+
+```text
 10k-rag-chatbot
 │
 ├── rag_weakllm.py      # Weak LLM RAG implementation (Ollama + Mistral)
@@ -87,6 +90,7 @@ Limitations:
 ├── sample_strongllm.md # Example questions
 │
 └── README.md
+```
 ---
 
 # 📑 Dataset
