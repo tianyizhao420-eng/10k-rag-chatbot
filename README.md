@@ -38,6 +38,7 @@ D --> E[FAISS Vector Database]
 E --> F[Retriever]
 F --> G[LLM]
 G --> H[Answer grounded in documents]
+```
 ---
 
 # 🤖 Weak vs Strong LLM
